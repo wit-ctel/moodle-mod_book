@@ -471,6 +471,8 @@ function book_dndupload_handle($uploadinfo) {
 	$book->intro = '<p>'.$uploadinfo->displayname.'</p>';
 	$book->introformat = FORMAT_HTML;
 	$book->numbering = 1;
+        // Start at revision 0, this will get incremented to 1 when we import chapters.
+        $book->revision = 0;
 
 	$type = 2;
 	$book->id = book_add_instance($book, null);
