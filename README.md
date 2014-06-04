@@ -26,3 +26,12 @@ Intentionally omitted features:
 * PDF export - there is no elegant way AFAIK to convert HTML to PDF, use virtual PDF printer or better use DocBook format for authoring
 * detailed student tracking (postponed till officially supported)
 * export as zipped set of HTML pages - instead use browser command Save page as... in print view
+
+
+Modded by Viettrung Luong - 05/2014
+
+* Added Drag and Drop Feature.
+* Accepts a zip file created from the following tool: https://github.com/edeleastar/moodle-book
+* Creates an instance and import the chapters from the zip file. 
+* Default settings for the Book instance are: Chapter Formatting - Numbers; No Custom titles; Description same as Name
+* Default Import Chapter Setting: Each HTML file represents one chapter
